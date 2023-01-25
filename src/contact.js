@@ -5,9 +5,9 @@ export function contactLoad() {
   contact.classList.add("contact");
 
   let p1 = document.createElement("p");
-  p1.textContent = "Best pizza in your country";
+  p1.textContent = "📞 123 456 789";
   let p2 = document.createElement("p");
-  p2.textContent = "Made with passion since 1908";
+  p2.textContent = "🏠 Hollywood Boulevard 42, Los Angeles, USA";
 
   let image = document.createElement("img");
   image.setAttribute("src", "./images/restaurant-location.png");
