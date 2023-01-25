@@ -220,6 +220,8 @@ button {
 /* Scrollbar */
 
 ::-webkit-scrollbar {
+  overflow: scroll; /* or 'auto' */
+  -webkit-overflow-scrolling: touch;
   width: 10px;
 }
 
